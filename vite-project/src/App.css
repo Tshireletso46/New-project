@@ -1,0 +1,45 @@
+.hero{
+  box-shadow: 5px 5px 10px rgba(0,0,0.9);
+  display: flex;
+  align-items: center;
+  height: 70px;
+  color: aliceblue;
+  padding: 15px;
+  background: linear-gradient(90deg, #cfbf9d 0%, #6b4616 100%);
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  margin-left: 20px;
+  padding-left: auto;
+  
+}
+.profile{
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 40%;
+  box-shadow: 5px 5px 10px rgb(0, 0, 3)
+}
+.header{
+  background-color:#baa887 ;
+  border-radius: 5px;
+}
+.button{
+  background-color: rgb(168, 122, 69);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0.9);  
+}
+
+.footer{
+  box-shadow: 5px 5px 10px rgba(0,0,0.5);
+  display: flex;
+  align-items: center;
+  height: 70px;
+  color: aliceblue;
+  padding: 10px;
+  background-color: #7d6449;
+}

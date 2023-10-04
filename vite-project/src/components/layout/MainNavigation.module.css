@@ -1,0 +1,34 @@
+/* MainNavigation.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7d6449; /* You can set your desired background color */
+    color: #fff; /* You can set your desired text color */
+  }
+  
+  .name {
+    flex: 1; /* Takes up available space on the left */
+  }
+  
+  .title{
+    padding-left: 20%;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the space between navigation items */
+  }
+  
+  .nav li {
+    font-size: 18px; /* Adjust the font size */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff; /* You can set your desired link color */
+  }
+  
+  /* Add additional styling as needed */

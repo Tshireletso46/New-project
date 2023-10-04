@@ -1,0 +1,26 @@
+.container {
+    /* border: 1px solid #ccc;  */
+    padding: 20px; 
+    margin: 10px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  .container div{
+    border: 2px black solid;
+    background-color: rgb(148, 125, 93);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+   
+  }
+
+  .container.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  
