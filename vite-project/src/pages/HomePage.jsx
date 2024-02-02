@@ -1,7 +1,16 @@
 
 import React, { useState } from 'react';
 
+/**
+ * React component for the home page.
+ * It includes an image with hover text and a button linking to the LinkedIn profile.
+ *
+ * @component
+ * @returns {JSX.Element} The JSX representation of the HomePage component.
+ */
+
 function HomePage() {
+   // State to track whether the image is being hovered
   const [isHovered, setIsHovered] = useState(false);
 
   const handleImageHover = () => {
