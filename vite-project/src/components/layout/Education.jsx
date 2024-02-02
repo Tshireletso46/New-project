@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import classes from './Education.module.css';
 
+/**
+ * React component for displaying education details, technical skills, and soft skills.
+ * The component includes a fade-in animation when it mounts.
+ *
+ * @component
+ * @returns {JSX.Element} The JSX representation of the Education component.
+ */
+
 function Education() {
+  // State to manage the visibility for the fade-in animation
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
