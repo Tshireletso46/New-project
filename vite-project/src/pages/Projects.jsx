@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import classes from './Projects.module.css'
 
+/**
+ * React component for displaying project details.
+ *
+ * @component
+ * @returns {JSX.Element} The JSX representation of the Projects component.
+ */
+
 function Projects() {
   const [isVisible, setIsVisible] = useState(false);
 
