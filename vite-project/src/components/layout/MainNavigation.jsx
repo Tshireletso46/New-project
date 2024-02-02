@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom"
 import classes from './MainNavigation.module.css'
 
+/**
+ * React component for the main navigation bar.
+ * It includes a header with the user's name, job title, and a navigation menu.
+ *
+ * @component
+ * @returns {JSX.Element} The JSX representation of the MainNavigation component.
+ */
+
 export default function MainNavigation() {
   return (
     <div>
